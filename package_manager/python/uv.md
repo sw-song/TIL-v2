@@ -104,7 +104,7 @@ this means uv ensures that the script is executed inside the virtual environment
 If you want to use requirements.txt file to init your packages but also want to use uv, you can do like this,
 ```
 $ pip freeze > requirements.txt
-# uv pip install -r requirements.txt
+$ uv pip install -r requirements.txt
 ```
 The opposite is also possible.
 ```
